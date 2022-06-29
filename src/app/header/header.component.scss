@@ -3,12 +3,13 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: calc(var(--spacing-XL) + var(--spacing-XS));
+    height: var(--nav-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    z-index: 2;
+    z-index: 99;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
 
     nav {
         margin-right: var(--spacing-XXL);

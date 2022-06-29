@@ -4,12 +4,14 @@
     --primary-color: #126BFB;
     --secondary-color: #EEF4FF;
     --action-color: #7BB9FA;
+    --lightgrey-color: #F2F2F2;
     --grey-color: #5b5963;
     --black-color: #282828;
     --spacing-XS: 16px;
     --spacing-L: 32px;
     --spacing-XL: 46px;
     --spacing-XXL: 142px;
+    --nav-height: 62px;
 }
 
 
@@ -25,8 +27,31 @@ h1 {
 
 h2 {
     font-size: 36px;
+    margin-block-end: calc(0.83em - 6px);
+    padding-bottom: 6px;
+    border-bottom: solid var(--black-color) 4px;
 }
 
 p {
     font-size: 18px;
+}
+
+.grey-wrapper {
+    background-color: var(--lightgrey-color);
+    height: calc(var(--spacing-XXL) * 3);
+    margin-top: var(--spacing-L);
+    padding: 0 var(--spacing-XXL);
+}
+
+.spacing-href {
+    height: var(--nav-height);
+    display: block;
+    margin-top: calc(var(--nav-height) * -1);
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
 }
