@@ -38,9 +38,8 @@ p {
 
 .grey-wrapper {
     background-color: var(--lightgrey-color);
-    height: calc(var(--spacing-XXL) * 3);
     margin-top: var(--spacing-L);
-    padding: 0 var(--spacing-XXL);
+    padding: 0px var(--spacing-XXL);
 }
 
 .spacing-href {
