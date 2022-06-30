@@ -5,13 +5,16 @@
 
     <form class="contact_form" action="/send_mail.php" method="POST">
         <div>
-        <input class="input_name"  name="name" placeholder="your name">
+            <label for="name">name</label>
+        <input required class="input_name" type="text" name="name" placeholder="your name...">
     </div>
     <div>
-        <input class="input_name"  name="mail" placeholder="your email address">
+        <label for="mail">email address</label>
+        <input required class="input_name" type="email" name="mail" placeholder="your email address...">
     </div>
     <div>
-        <textarea class="textarea" name="message" placeholder="Your message to me"></textarea>
+        <label for="message" >message</label>
+        <textarea required class="textarea" name="message" pattern="" placeholder="Your message to me..."></textarea>
     </div>
     <div>
         <button type="submit">Mail senden</button>
