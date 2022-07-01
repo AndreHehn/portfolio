@@ -1,3 +1,8 @@
-.skill-image{
-    height:40px;
+.skill-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
 }

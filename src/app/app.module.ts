@@ -11,6 +11,7 @@ import { MyworksComponent } from './myworks/myworks.component';
 import { HeadpictureComponent } from './headpicture/headpicture.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { WorkItemComponent } from './work-item/work-item.component';
+import { SkillItemComponent } from './skill-item/skill-item.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { WorkItemComponent } from './work-item/work-item.component';
     MyworksComponent,
     HeadpictureComponent,
     AboutmeComponent,
-    WorkItemComponent
+    WorkItemComponent,
+    SkillItemComponent
   ],
   imports: [
     BrowserModule,
