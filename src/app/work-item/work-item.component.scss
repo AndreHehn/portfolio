@@ -12,9 +12,9 @@
         align-items: flex-start;
     }
 
-    .work-text {
-        align-items: flex-start;
-        text-align: start;
+    .work-text-wrap {
+        justify-content: flex-start;
+        padding-left: var(--spacing-L);
     }
 }
 
@@ -25,10 +25,11 @@
         align-items: flex-end;
     }
 
-    .work-text {
-        align-items: flex-end;
-        text-align: end;
+    .work-text-wrap {
+        justify-content: flex-end;
+        padding-right: var(--spacing-L);
     }
+
 }
 
 .work-div {
@@ -37,7 +38,6 @@
     width: 50%;
     max-height: 100%;
     height: 100%;
-    ;
     padding-top: var(--spacing-XL);
     padding-bottom: var(--spacing-XL);
 }
@@ -51,6 +51,20 @@
     }
 }
 
+.work-text-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
 .work-text {
     justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--spacing-XS);
 }
