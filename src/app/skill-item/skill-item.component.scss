@@ -3,11 +3,11 @@
     flex-direction: column;
     align-items: center;
 
-    padding: var(--spacing-L);
+    padding: var(--spacing-XS);
 
     .skill-circle {
-        height: calc(var(--spacing-XL) * 1.5);
-        width: calc(var(--spacing-XL) * 1.5);
+        height: calc(var(--spacing-XL) * 1.2);
+        width: calc(var(--spacing-XL) * 1.2);
         border-radius: 50%;
         background-color: white;
         display: flex;
@@ -17,15 +17,15 @@
         box-shadow: 0px 0px 20px -10px var(--black-color);
 
         img {
-            height: 40px;
+            height: 32px;
         }
     }
 
     .skill-rect {
-        margin-top: calc(var(--spacing-XL) * -0.75);
+        margin-top: calc(var(--spacing-XL) * -0.66);
         background-color: white;
         width: var(--spacing-XXL);
-        height: calc(var(--spacing-XXL) * 0.75);
+        height: calc(var(--spacing-XXL) * 0.66);
         display: flex;
         align-items: center;
         justify-content: center;
