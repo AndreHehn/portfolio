@@ -29,7 +29,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "srngc/fonts.scss"
+              "src/fonts.scss"
             ],
             "scripts": []
           },

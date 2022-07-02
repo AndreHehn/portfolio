@@ -3,7 +3,8 @@
 }
 
 .head-picture {
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     z-index: 0;
     height: calc(100vh - (var(--spacing-XL) + var(--spacing-XS)));
     object-fit: cover;
@@ -21,21 +22,28 @@
 
 .i-am {
     top: var(--spacing-XL);
-    right: var(--spacing-XXL);
+    right: calc(var(--spacing-XXL) * 2);
     position: absolute;
     z-index: 3;
     height: calc(var(--spacing-XXL) * 3);
-    width: calc(var(--spacing-XL) * 11);
+    width: calc(var(--spacing-XL) * 10.3);
 
 
     h1 {
         color: white;
         text-shadow: -1px 0 var(--black-color), 0 1px var(--black-color), 1px 0 var(--black-color), 0 -1px var(--black-color);
+        text-align:end;
     }
 
     p {
         color: white;
         text-shadow: -1px 0 var(--black-color), 0 1px var(--black-color), 1px 0 var(--black-color), 0 -1px var(--black-color);
-        text-align: center;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    .i-am{
+        width: 100%;
     }
 }

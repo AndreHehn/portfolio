@@ -1,0 +1,16 @@
+//        width: calc(1920px - ( var(--spacing-XXL) * 4));
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: calc(1920px - ( var(--spacing-XXL) * 4));
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    h2{
+        border:unset;
+    }
+    p{margin-top:-24px;}
+}

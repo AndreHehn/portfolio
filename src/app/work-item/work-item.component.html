@@ -1,12 +1,18 @@
-<div class="grey-wrapper work {{project.direction}}">
-    <div class="work-div work-pic"><img src="assets/img/{{project.src}}"></div>
-    <div class="work-div work-text-wrap">
-        <div class="work-text">
-            <h3>{{project.name}}</h3>
-            <p [innerHTML]="project.text"></p>
-            <div class="button-wrapper">
-                <button class="button-alternative">show code</button>
-                <button class="button-primary">try out</button>
+<div class="grey-wrapper">
+    <div class="work {{project.direction}}">
+        <div class="work-div work-pic-wrap">
+            <div class="work-pic">
+                <img src="assets/img/{{project.src}}">
+            </div>
+        </div>
+        <div class="work-div work-text-wrap">
+            <div class="work-text">
+                <h3>{{project.name}}</h3>
+                <p>{{project.text}}</p>
+                <div class="button-wrapper">
+                    <button class="button-alternative">show code</button>
+                    <button class="button-primary">try out</button>
+                </div>
             </div>
         </div>
     </div>
