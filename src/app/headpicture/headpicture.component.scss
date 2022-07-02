@@ -43,7 +43,9 @@
 }
 
 @media only screen and (max-width: 1430px) {
-    .i-am{
-        width: 100%;
+
+    .head-picture{
+        max-width: unset;
+        width:100%;
     }
 }

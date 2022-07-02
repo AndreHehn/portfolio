@@ -21,6 +21,14 @@ footer {
 .footer-links {
     display: flex;
     gap: var(--spacing-XS);
+    a{
+        color:var(--black-color);
+        text-decoration: none;
+        border-bottom: solid 1px transparent;
+        &:hover{
+            border-bottom-color: var(--black-color);
+        }
+    }
 }
 
 @media only screen and (max-width: 1430px) {

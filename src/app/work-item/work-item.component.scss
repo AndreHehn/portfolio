@@ -29,15 +29,11 @@
     height: 100%;
     padding-top: var(--spacing-XL);
     padding-bottom: var(--spacing-XL);
-    flex: 1;
+
 }
 
 .work-pic {
-    max-width: fit-content;
-
-
     img {
-        max-width: 100%;
         height: calc((var(--spacing-XXL) * 3) - (var(--spacing-XL) * 2));
     }
 }

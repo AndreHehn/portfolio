@@ -12,6 +12,8 @@ import { HeadpictureComponent } from './headpicture/headpicture.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { WorkItemComponent } from './work-item/work-item.component';
 import { SkillItemComponent } from './skill-item/skill-item.component';
+import { ImprintComponent } from './imprint/imprint.component';
+import { DataProtectionComponent } from './data-protection/data-protection.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SkillItemComponent } from './skill-item/skill-item.component';
     HeadpictureComponent,
     AboutmeComponent,
     WorkItemComponent,
-    SkillItemComponent
+    SkillItemComponent,
+    ImprintComponent,
+    DataProtectionComponent
   ],
   imports: [
     BrowserModule,
