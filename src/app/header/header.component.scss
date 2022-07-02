@@ -15,17 +15,21 @@ header {
         height: var(--spacing-XL);
     }
 
-    a {
-        margin-left: var(--spacing-XL);
-        text-decoration: none;
-        color: var(--black-color);
-        padding: 4px 0px;
-        border-bottom: solid transparent 4px;
+    .nav{
 
-        &:hover {
-            border-bottom: solid var(--black-color) 4px;
+        a {
+            margin-left: var(--spacing-XL);
+            text-decoration: none;
+            color: var(--black-color);
+            padding: 4px 0px;
+            border-bottom: solid transparent 4px;
+    
+            &:hover {
+                border-bottom: solid var(--black-color) 4px;
+            }
         }
     }
+
 
 }
 

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "andrehehn": {
+    "andrehehn.de": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
