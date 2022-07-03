@@ -2,7 +2,7 @@
 
 ########### CONFIG ###############
 
-$recipient = 'your@mail.com';
+$recipient = 'a.hehn@web.de';
 $redirect = 'success.html';
 
 ########### CONFIG END ###########
@@ -14,7 +14,7 @@ $redirect = 'success.html';
 #   This script has been created to send an email to the $recipient
 #   
 #  1) Upload this file to your FTP Server
-#  2) Send a POST rewquest to this file, including
+#  2) Send a POST request to this file, including
 #     [name] The name of the sender (Absender)
 #     [message] Message that should be send to you
 #
@@ -40,9 +40,9 @@ switch ($_SERVER['REQUEST_METHOD']) {
         header("Access-Control-Allow-Origin: *");
 
         $subject = "Contact From " . $_POST['name'];
-        $headers = "From:  noreply@developerakademie.com";
+        $headers = "From:  noreply@andrehehn.de";
 
-        mail($recipient, $subject, $_POST['message'], $headers);
+        mail($recipient, $subject, $_POST['message'],$_POST['email'], $headers);
         header("Location: " . $redirect); 
 
         break;

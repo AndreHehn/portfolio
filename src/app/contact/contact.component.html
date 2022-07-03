@@ -1,29 +1,30 @@
 <div class="spacing-href" id="contactme"></div>
-<div class="headline">
-    <h2>Contact me</h2>
-    <p>get in contact via the form below, or by emailing <a href="hello@andrehehn.de">hello@andrehehn.de</a></p>
-</div>
-
-<div class="contact">
-
-    <form class="contact_form" action="/send_mail.php" method="POST">
-        <div>
-            <label for="name">name</label><br>
-            <input required class="input_name" type="text" name="name" placeholder="your name...">
+<div class="contact-wrap">
+    <div class="headline">
+        <h2>Contact me</h2>
+        <div class="textwrap">
+            <p>get in contact via the form below, or by emailing <a href="hello@andrehehn.de">hello@andrehehn.de</a></p>
         </div>
-        <div>
-            <label for="mail">email address</label><br>
-            <input required class="input_name" type="email" name="mail" placeholder="your email address...">
-        </div>
-        <div>
-            <label for="message">message</label><br>
-            <textarea required class="textarea" name="message" pattern=""
-                placeholder="your message to me..."></textarea>
-        </div>
-        <div>
-            <button class="button-primary" type="submit">send mail</button>
-        </div>
-    </form>
+    </div>
+    <div class="contact">
+        <form class="contact_form" action="/send_mail.php" method="POST">
+            <div>
+                <label for="name">name</label><br>
+                <input required class="input-name" type="text" name="name">
+            </div>
+            <div>
+                <label for="mail">email address</label><br>
+                <input required class="input-name" type="email" name="email">
+            </div>
+            <div>
+                <label for="message">message</label><br>
+                <textarea required class="textarea" name="message" pattern=""></textarea>
+            </div>
+            <div class="button-wrap">
+                <button class="button-primary" type="submit">send mail</button>
+            </div>
+        </form>
+    </div>
 </div>
 <!--
 

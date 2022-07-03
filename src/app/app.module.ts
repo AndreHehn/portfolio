@@ -14,6 +14,7 @@ import { WorkItemComponent } from './work-item/work-item.component';
 import { SkillItemComponent } from './skill-item/skill-item.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
     WorkItemComponent,
     SkillItemComponent,
     ImprintComponent,
-    DataProtectionComponent
+    DataProtectionComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
