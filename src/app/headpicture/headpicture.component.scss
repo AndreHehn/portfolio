@@ -15,6 +15,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
+    max-width:100%;
     height: calc(var(--spacing-XXL) * 2);
     z-index: 1;
     object-fit: fill;
@@ -45,7 +46,7 @@
 @media only screen and (max-width: 1430px) {
 
     .head-picture{
-        max-width: unset;
+        max-width: 100%;
         width:100%;
     }
 }
