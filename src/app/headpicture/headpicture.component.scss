@@ -6,7 +6,7 @@
     width: 100vw;
     max-width: 100%;
     z-index: 0;
-    height: calc(100vh - (var(--spacing-XL) + var(--spacing-XS)));
+    height: calc(100vh - (var(--nav-height)));
     object-fit: cover;
 }
 
@@ -54,7 +54,7 @@
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 87vh;
+    top: 90vh;
     z-index: 6;
 }
 

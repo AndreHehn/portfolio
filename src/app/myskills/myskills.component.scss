@@ -1,16 +1,17 @@
-.skill-wrapper{
+.skill-wrapper {
+    margin-top: (var(--spacing-L));
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 695px;
-    width:100%;
-    padding-bottom: var(--spacing-L);
+    max-width: calc(174px * 3);
+    width: 100%;
 }
 
+
 @media only screen and (max-width: 1125px) {
-.skill-wrapper{
-    padding-bottom: 0;
-}
+    .skill-wrapper {
+        padding-bottom: 0;
+    }
 }
