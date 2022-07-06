@@ -14,6 +14,11 @@ import { SkillItemComponent } from './skill-item/skill-item.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatFormFieldModule} from '@angular/material/form-field'; 
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -33,7 +38,11 @@ import { MainPageComponent } from './main-page/main-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

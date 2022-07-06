@@ -7,26 +7,56 @@
         </div>
     </div>
     <div class="contact">
-        <form target="_blank" class="contact_form" action="https://usebasin.com/f/8180110c075c" method="POST">
-            <div>
-                <label for="name">name</label><br>
-                <input required class="input-name" type="text" name="name">
-            </div>
-            <div>
-                <label for="mail">email address</label><br>
-                <input required class="input-name" type="email" name="email">
-            </div>
-            <div>
-                <label for="message">message</label><br>
-                <textarea required class="textarea" name="message" pattern=""></textarea>
-            </div>
-            <div class="button-wrap">
-                <button class="button-primary" type="submit">send mail</button>
-            </div>
+
+
+        <form  target="_blank" class="contact_form" action="https://usebasin.com/f/8180110c075c" method="POST">
+            <mat-form-field appearance="fill">
+                <mat-label>Name:</mat-label>
+                <input matInput required [(ngModel)]="name">
+                <mat-label>Email address</mat-label>
+                <input matInput required [(ngModel)]="mail">
+                <mat-label>Message</mat-label>
+                <input matInput required [(ngModel)]="text">
+            </mat-form-field>
         </form>
+        <button mat-button [disabled]="name.length == 0" type="submit" cdkFocusInitial>send mail</button>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 <!--
+    <form target="_blank" class="contact_form" action="https://usebasin.com/f/8180110c075c" method="POST">
+        <div>
+            <label for="name">name</label><br>
+            <input required class="input-name" type="text" name="name">
+        </div>
+        <div>
+            <label for="mail">email address</label><br>
+            <input required class="input-name" type="email" name="email">
+        </div>
+        <div>
+            <label for="message">message</label><br>
+            <textarea required class="textarea" name="message" pattern=""></textarea>
+        </div>
+        <div class="button-wrap">
+            <button class="button-primary" type="submit">send mail</button>
+        </div>
+    </form>
+</div>
 
     php
 -->
