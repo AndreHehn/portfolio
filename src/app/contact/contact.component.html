@@ -3,41 +3,49 @@
     <div class="headline">
         <h2>Contact me</h2>
         <div class="textwrap">
-            <p>get in contact via the form below, or by emailing <a href="hello@andrehehn.de">hello@andrehehn.de</a></p>
+            <p>get in contact via the form below, or by emailing <a href="mailto:hello@andrehehn.de">hello@andrehehn.de</a></p>
         </div>
     </div>
     <div class="contact">
 
-
-        <form  target="_blank" class="contact_form" action="https://usebasin.com/f/8180110c075c" method="POST">
-            <mat-form-field appearance="fill">
-                <mat-label>Name:</mat-label>
-                <input matInput required [(ngModel)]="name">
-                <mat-label>Email address</mat-label>
-                <input matInput required [(ngModel)]="mail">
-                <mat-label>Message</mat-label>
-                <input matInput required [(ngModel)]="text">
-            </mat-form-field>
+        <form target="_blank" class="contact_form" action="https://usebasin.com/f/8180110c075c" method="POST">
+            <div>
+                <label for="name">Name</label><br>
+                <input required class="input-name" [(ngModel)]="name" type="text" name="name">
+            </div>
+            <div>
+                <label for="mail">Email address</label><br>
+                <input required class="input-name" [(ngModel)]="mail" type="email" name="mail">
+            </div>
+            <div>
+                <label for="message">Message</label><br>
+                <textarea required class="textarea" [(ngModel)]="text" name="message" pattern=""></textarea>
+            </div>
+            <div class="button-wrap">
+                <button
+                    [disabled]="name.length == 0 || ( !(mail.includes('.') && mail.includes('@'))|| mail.length == 0) || text.length == 0"
+                    class="button-primary" type="submit">send mail</button>
+            </div>
         </form>
-        <button mat-button [disabled]="name.length == 0" type="submit" cdkFocusInitial>send mail</button>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--
     <form target="_blank" class="contact_form" action="https://usebasin.com/f/8180110c075c" method="POST">
         <div>

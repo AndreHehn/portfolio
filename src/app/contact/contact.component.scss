@@ -30,9 +30,10 @@
     }
 
     p {
-        margin-top: -24px;
+        margin-top: -16px;
     }
 }
+label{ font-weight: bold;}
 
 .input-name {
     margin-top: var(--spacing-XS);
@@ -51,6 +52,7 @@
 }
 
 textarea {
+    padding-top: 8px;;
     margin-top: var(--spacing-XS);
     margin-bottom: var(--spacing-XS);
     padding-left: var(--spacing-XS);
@@ -83,8 +85,6 @@ textarea {
 
     .input-name {
         width: 90vw;
-
-
     }
 
 }
