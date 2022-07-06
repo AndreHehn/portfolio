@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -14,7 +13,7 @@ import { WorkItemComponent } from './work-item/work-item.component';
 import { SkillItemComponent } from './skill-item/skill-item.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
-import { SuccessComponent } from './success/success.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,7 @@ import { SuccessComponent } from './success/success.component';
     SkillItemComponent,
     ImprintComponent,
     DataProtectionComponent,
-    SuccessComponent
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
