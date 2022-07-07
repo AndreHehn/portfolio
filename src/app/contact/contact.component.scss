@@ -33,7 +33,10 @@
         margin-top: -16px;
     }
 }
-label{ font-weight: bold;}
+
+label {
+    font-weight: bold;
+}
 
 .input-name {
     margin-top: var(--spacing-XS);
@@ -51,8 +54,32 @@ label{ font-weight: bold;}
     }
 }
 
+.error {
+    border-color: #ff6467 !important;
+
+
+
+}
+
+.mail-wrap {
+    position: relative;
+
+    .warning {
+        position: absolute;
+        height: 18px;
+        width: auto;
+        filter: invert(52%) sepia(16%) saturate(4380%) hue-rotate(321deg) brightness(106%) contrast(111%);
+        top: 42px;
+        right: 8px;
+    }
+}
+
+
+
+
 textarea {
-    padding-top: 8px;;
+    padding-top: 8px;
+    ;
     margin-top: var(--spacing-XS);
     margin-bottom: var(--spacing-XS);
     padding-left: var(--spacing-XS);
