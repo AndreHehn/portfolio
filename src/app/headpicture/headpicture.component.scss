@@ -2,12 +2,15 @@
     position: relative;
 }
 
-.head-picture {
+
+.base {
     width: 100vw;
     max-width: 100%;
     z-index: 0;
     height: calc(100vh - (var(--nav-height)));
-    object-fit: cover;
+    background: url('/assets/img/header.png');
+    background-size: cover;
+    background-position: 38%  -30px;
 }
 
 .transition-picture {
@@ -22,7 +25,7 @@
 }
 
 .i-am {
-    top: var(--spacing-XL);
+    top: var(--spacing-XXL);
     right: calc(var(--spacing-XXL) * 2);
     position: absolute;
     z-index: 3;
@@ -32,13 +35,11 @@
 
     h1 {
         color: white;
-        text-shadow: -1px 0 var(--black-color), 0 1px var(--black-color), 1px 0 var(--black-color), 0 -1px var(--black-color);
         text-align: start;
     }
 
     p {
         color: white;
-        text-shadow: -1px 0 var(--black-color), 0 1px var(--black-color), 1px 0 var(--black-color), 0 -1px var(--black-color);
         text-align: justify;
     }
 }
@@ -135,17 +136,6 @@
 
 
 
-
-
-
-@media only screen and (max-width: 1430px) {
-
-    .head-picture {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
 @media only screen and (max-width: 1000px) {
     .i-am {
         margin-left: auto;
@@ -158,7 +148,7 @@
 @media only screen and (max-width: 540px) {
 
     .i-am {
-        top: calc(100vh * 0.45);
+        top: calc(100vh * 0.5);
         z-index: 3;
         height: auto;
         width: 80%;
@@ -166,12 +156,10 @@
         h1 {
             font-size: 24px;
             color: var(--black-color);
-            text-shadow: none;
         }
 
         p {
             color: var(--black-color);
-            text-shadow: none;
         }
     }
 
@@ -180,8 +168,9 @@
 
     }
 
-    .head-picture {
-        height: 55vh;
+    .base {
+        height: 60vh;
+        background-position: 38%  -10px;
     }
 
     .head-picture-wrapper {
