@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./work-item.component.scss']
 })
 export class WorkItemComponent implements OnInit {
-  @Input() project = { 'name': '', 'text': '', 'src': '', 'direction':'' };
+  @Input() project = { 'name': '', 'text': '', 'src': '', 'direction':'', 'github': '', 'link': '' };
 
 constructor() { }
 
