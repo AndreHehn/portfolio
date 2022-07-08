@@ -29,7 +29,7 @@ export class MyworksComponent implements OnInit {
       "src": "pokedex.png",
       "direction": "left",
       "github": "https://github.com/AndreHehn/pokedex",
-      "link": "https://github.com/AndreHehn/pokedex"
+      "link": "https://andre-hehn.developerakademie.net/pokedex/"
     }/*,
     {
       "name": "CUSTOMER MANAGEMENT SYSTEM",
