@@ -9,7 +9,7 @@ export class MyworksComponent implements OnInit {
   projects = [
     {
       "name": "EL POLLO LOCO",
-      "text": "With this little jump'n'run game i learned object oriented programming.",
+      "text": "With this little jump'n'run game I learned object oriented programming.",
       "src": "pollo.png",
       "direction": "left",
       "github": "https://github.com/AndreHehn/portfolio",
@@ -22,15 +22,15 @@ export class MyworksComponent implements OnInit {
       "direction": "right",
       "github": "https://github.com/AndreHehn/el_pollo_loco",
       "link": "#"
-    }/*,
-    {
-      "name": "RING OF FIRE",
-      "text": "By programming this well-known drinking game, I improved my skills in Angular,especially creating animations and working with databases(in this case firebase from google). ",
-      "src": "ringoffire.png",
-      "direction": "left",
-      "github": "https://github.com/AndreHehn/ringoffire",
-      "link": ""
     },
+    {
+      "name": "POKEDEX",
+      "text": "By coding this app, I learned how to work with an API.",
+      "src": "pokedex.png",
+      "direction": "left",
+      "github": "https://github.com/AndreHehn/pokedex",
+      "link": "https://github.com/AndreHehn/pokedex"
+    }/*,
     {
       "name": "CUSTOMER MANAGEMENT SYSTEM",
       "text": "With this little jump'n'run game i learned object oriented programming.",
@@ -38,6 +38,10 @@ export class MyworksComponent implements OnInit {
       "direction": "right",
       "github": "",
       "link": ""
+
+
+      "text": "By programming this well-known drinking game, I improved my skills in Angular,especially creating animations and working with databases(in this case firebase from google). ",
+
     }*/
   ];
   constructor() { }
