@@ -22,9 +22,12 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
+  margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+  height: 100%;
   font-family: 'Karla', sans-serif;
   margin: 0;
   color: var(--black-color);
@@ -50,6 +53,7 @@ h3 {
 }
 
 p {
+  line-height: 36px;
   font-size: 18px;
 }
 
@@ -121,5 +125,10 @@ p {
     border-color: var(--disabled-color);
   }
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@media only screen and (max-width: 300px) {
+  p{
+    line-height: unset;
+  }
+}

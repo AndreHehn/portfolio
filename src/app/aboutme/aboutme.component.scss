@@ -4,9 +4,8 @@
     justify-content: center;
     align-items: center;
     width: calc(1920px - (var(--spacing-XXL) * 4));
-    height: calc(100vh - (var(--spacing-XL) + var(--spacing-XS)) - var(--spacing-L) * 2 - 52px);
-    padding-top: var(--spacing-L);
-    padding-bottom: var(--spacing-L);
+    padding-top: var(--spacing-XL);
+    padding-bottom: var(--spacing-XL);
 }
 
 .about-left {
@@ -17,7 +16,7 @@
 
     img {
         object-fit: cover;
-        height: calc(100vh - (var(--spacing-XL) + var(--spacing-XS)) - var(--spacing-L) * 4 - 52px);
+        height: calc(70vh);
         max-width: 100%;
     }
 }
@@ -25,15 +24,14 @@
 .about-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     min-height: 100%;
     text-align: justify;
-    margin-bottom: calc(var(--spacing-XS) * -2);
+
 
     p {
-        margin-top: calc(var(--spacing-XS) * -1);
         max-width: 80%;
         margin-bottom: 0;
     }
