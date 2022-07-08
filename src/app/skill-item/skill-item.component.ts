@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import AOS from 'aos';
+
 
 @Component({
   selector: 'app-skill-item',
@@ -10,6 +12,7 @@ export class SkillItemComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    AOS.init();
   }
 
 }

@@ -45,7 +45,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height:var(--nav-height);
+    height: var(--nav-height);
     width: calc(1920px - (var(--spacing-XXL) * 4));
     position: relative;
 }
@@ -141,7 +141,7 @@ nav input[type="checkbox"] {
         ul {
 
             width: 100%;
- 
+
         }
     }
 }
