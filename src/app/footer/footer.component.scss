@@ -25,10 +25,9 @@ footer {
     a {
         color: var(--black-color);
         text-decoration: none;
-        border-bottom: solid 1px transparent;
 
         &:hover {
-            border-bottom-color: var(--black-color);
+            transform: scale(1.15);
         }
     }
 }

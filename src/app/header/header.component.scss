@@ -14,6 +14,9 @@ header {
 
     img {
         height: var(--spacing-XL);
+        &:hover {
+            transform: scale(1.15);
+        }
     }
 
 }
@@ -28,10 +31,9 @@ header {
         text-decoration: none;
         color: var(--black-color);
         padding: 4px 0px;
-        border-bottom: solid transparent 4px;
 
         &:hover {
-            border-bottom: solid var(--black-color) 4px;
+            transform: scale(1.15);
         }
     }
 }
