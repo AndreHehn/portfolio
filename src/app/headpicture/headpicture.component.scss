@@ -157,12 +157,15 @@
         right: 0;
         left: 0;
     }
+    .link-wrap {
+        top: 80vh;
+    }
 }
 
 @media only screen and (max-width: 630px) {
 
     .i-am {
-        top: 44vh;
+        top: 33vh;
         z-index: 3;
         height: auto;
         width: 80%;
@@ -185,7 +188,7 @@
     }
 
     .base {
-        height: 60vh;
+        height: 50vh;
         background-position: 38% -10px;
     }
 
