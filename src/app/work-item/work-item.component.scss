@@ -29,7 +29,6 @@
     height: 100%;
     padding-top: var(--spacing-XL);
     padding-bottom: var(--spacing-XL);
-
 }
 
 .work-pic {
@@ -95,7 +94,6 @@
     .work-text-wrap {
         margin-top: 0;
         padding-top: 0;
-
     }
 }
 
@@ -103,8 +101,6 @@
     .work-text {
         width: 100%;
     }
-
-
 
     .work-pic {
         img {
@@ -119,5 +115,4 @@
         flex-direction: column;
         gap: var(--spacing-XS);
     }
-
 }

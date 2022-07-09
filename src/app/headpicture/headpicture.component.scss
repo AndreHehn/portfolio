@@ -2,7 +2,6 @@
     position: relative;
 }
 
-
 .base {
     width: 100vw;
     max-width: 100%;
@@ -32,9 +31,7 @@
     margin-right: 15vw;
     position: absolute;
     z-index: 3;
-
     width: calc(var(--spacing-XL) * 12);
-
 
     h1 {
         color: white;
@@ -48,8 +45,6 @@
         text-shadow: -1px 0 var(--black-color), 0 1px var(--black-color), 1px 0 var(--black-color), 0 -1px var(--black-color);
     }
 }
-
-
 
 .link-wrap {
     position: absolute;
@@ -71,8 +66,6 @@
 }
 
 .link-arrowed {
-
-
     .arrow-icon {
         position: relative;
         top: 0px;
@@ -86,11 +79,9 @@
     .arrow-down {
         height: var(--spacing-XL);
         width: auto;
-        ;
         position: absolute;
         padding-left: calc((80px - var(--spacing-XL)) / 2);
         padding-right: calc((80px - var(--spacing-XL)) / 2);
-        ;
         top: 0;
         left: 0;
         right: 0;
@@ -117,7 +108,6 @@
         .arrow-icon-circle {
             stroke-dashoffset: 0;
         }
-
     }
 }
 
@@ -157,13 +147,13 @@
         right: 0;
         left: 0;
     }
+
     .link-wrap {
         top: 80vh;
     }
 }
 
 @media only screen and (max-width: 630px) {
-
     .i-am {
         top: 33vh;
         z-index: 3;
@@ -184,7 +174,6 @@
 
     .transition-picture {
         height: 30vh;
-
     }
 
     .base {
@@ -195,7 +184,4 @@
     .head-picture-wrapper {
         margin-bottom: 400px;
     }
-
-
-
 }

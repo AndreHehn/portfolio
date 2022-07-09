@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./myskills.component.scss']
 })
 export class MyskillsComponent implements OnInit {
+
   skills = [
     {
       "name": "JavaScript",
@@ -15,7 +16,6 @@ export class MyskillsComponent implements OnInit {
       "name": "Angular",
       "src": "angular.png",
     },
- 
     {
       "name": "HTML/CSS",
       "src": "htss.png",
@@ -46,32 +46,9 @@ export class MyskillsComponent implements OnInit {
     },
 
   ];
+
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }
-
-
-/*   
-    
-            <div class="skil-circle"><img class="skill-image" src="assets/img/GITHUB.png"></div>
-            <div class="skill-rect">GIT</div>
-        </div>
-        <div class="skill-element">
-            <div class="skil-circle"><img class="skill-image" src="assets/img/DESIGN.png"></div>
-            <div class="skill-rect">DESIGN THINKING</div>
-        </div>
-        <div class="skill-element">
-            <div class="skil-circle"><img class="skill-image" src="assets/img/API.png"></div>
-            <div class="skill-rect">REST API</div>
-        </div>
-        <div class="skill-element">
-            <div class="skil-circle"><img class="skill-image" src="assets/img/Test.png"></div>
-            <div class="skill-rect">TEST AUTOMATION</div>
-        </div>
-        <div class="skill-element">
-            <div class="skil-circle"><img class="skill-image" src="assets/img/Database.png"></div>
-            <div class="skill-rect">DATABASES</div>
-        </div>*/

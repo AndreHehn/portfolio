@@ -1,13 +1,13 @@
 .imprint-wrap {
     width: calc(1920px - (var(--spacing-XXL) * 4));
-height: calc(100vh - 80px - var(--spacing-XXL));
+    height: calc(100vh - 80px - var(--spacing-XXL));
+
     h2 {
         border: unset;
     }
 }
 
 @media only screen and (max-width: 1430px) {
-
     .imprint-wrap {
         max-width: 100%;
         width: 100vw;
@@ -15,10 +15,15 @@ height: calc(100vh - 80px - var(--spacing-XXL));
         padding-right: var(--spacing-L);
     }
 }
-@media only screen and (max-width: 375px) {
 
+@media only screen and (max-width: 375px) {
     .imprint-wrap {
-h1{font-size: 40px;}
-h2{font-size: 24px;}
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
     }
 }
