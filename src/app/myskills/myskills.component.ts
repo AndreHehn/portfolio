@@ -16,9 +16,17 @@ export class MyskillsComponent implements OnInit {
       "name": "Angular",
       "src": "angular.png",
     },
-    {
+    /*{
       "name": "HTML/CSS",
       "src": "htss.png",
+    },*/
+    {
+      "name": "HTML",
+      "src": "html.png",
+    },
+    {
+      "name": "CSS",
+      "src": "css.png",
     },
     {
       "name": "SCRUM",
@@ -49,6 +57,7 @@ export class MyskillsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void { 
+  }
 
 }
