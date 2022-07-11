@@ -33,7 +33,7 @@ export class MyworksComponent implements OnInit {
     },
     {
       "name": "RING OF FIRE",
-      "text": "During programming this well-known drinking game, I improved my skills in Angular, especially creating animations and working with databases (in this case, firebase from google). The used languages: TypeScript, SCSS and HTML",
+      "text": "During programming this well-known drinking game, I improved my skills in Angular, especially creating animations and working with databases (in this case, firebase from google).",
       "src": "ringoffire.png",
       "direction": "right",
       "github": "https://github.com/AndreHehn/ringoffire",
