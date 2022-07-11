@@ -48,7 +48,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: var(--nav-height);
-    width: calc(1920px - (var(--spacing-XXL) * 4));
+    width: calc(1920px - (var(--spacing-XXL) * 6));
     position: relative;
 }
 
@@ -76,7 +76,7 @@ nav input[type="checkbox"] {
 }
 
 
-@media only screen and (max-width: 1430px) {
+@media only screen and (max-width: 1146px) {
     nav {
         width: 100vw;
         max-width: 100%;

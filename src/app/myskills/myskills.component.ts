@@ -15,8 +15,8 @@ export class MyskillsComponent implements OnInit {
     {
       "name": "Angular",
       "src": "angular.png",
-    },
-    /*{
+    },/*
+    {
       "name": "HTML/CSS",
       "src": "htss.png",
     },*/

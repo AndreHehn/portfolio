@@ -5,9 +5,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: calc(174px * 4);
+    max-width:  calc(1920px - (var(--spacing-XXL) * 6));
     width: 100%;
-    padding-bottom: (var(--spacing-L));
+    padding-top: (var(--spacing-XL));
 }
 
 

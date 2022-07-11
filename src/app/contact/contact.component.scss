@@ -43,7 +43,7 @@ label {
     margin-bottom: var(--spacing-XS);
     padding-left: var(--spacing-XS);
     height: var(--spacing-L);
-    width: calc((1920px - (var(--spacing-XXL) * 4)) / 2);
+    width: calc((1920px - (var(--spacing-XXL) * 6)) / 2);
     background-color: var(--secondary-color);
     border: unset;
     outline: none;
@@ -82,7 +82,7 @@ textarea {
     margin-bottom: var(--spacing-XS);
     padding-left: var(--spacing-XS);
     height: var(--spacing-XXL);
-    width: calc((1920px - (var(--spacing-XXL) * 4)) / 2);
+    width: calc((1920px - (var(--spacing-XXL) * 6)) / 2);
     background-color: var(--secondary-color);
     border: unset;
     outline: none;
