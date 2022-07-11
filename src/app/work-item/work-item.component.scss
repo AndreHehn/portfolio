@@ -54,6 +54,10 @@
     p {
         margin-top: calc(var(--spacing-XL) * -1);
     }
+
+    h3 {
+        margin-top: 0;
+    }
 }
 
 .button-wrapper {
@@ -61,7 +65,6 @@
     flex-direction: row;
     justify-content: center;
     gap: var(--spacing-XS);
-    padding-bottom: var(--spacing-L);
 }
 
 
@@ -89,6 +92,10 @@
             margin-top: var(--spacing-XS);
             margin-bottom: var(--spacing-XL);
         }
+    }
+
+    .work-pic {
+        padding-bottom: 0;
     }
 
     .work-text-wrap {
