@@ -44,10 +44,10 @@ export class MyskillsComponent implements OnInit {
       "name": "API",
       "src": "api.png",
     },
-    /* {
+     {
      "name": "Test automation",
     "src": "test.png",
-    },*/
+    },
     {
       "name": "Databases",
       "src": "databases.png",
