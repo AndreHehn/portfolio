@@ -20,6 +20,9 @@
     padding-right: var(--spacing-XS);
     padding-left: var(--spacing-XS);
 }
+.contact-form {
+    width: 100%;
+}
 
 .headline {
     width: 100%;
@@ -103,13 +106,24 @@ textarea {
 
 @media only screen and (max-width: 708px) {
 
+
     textarea {
-        width: 90vw;
+        width: 100%;
+
 
     }
 
     .input-name {
-        width: 90vw;
+        width: 100%;
+
     }
 
+    .contact {
+        width: 100vw;
+        max-width: 100%;
+        padding-left: var(--spacing-L);
+        padding-right: var(--spacing-L);
+
+
+    }
 }
