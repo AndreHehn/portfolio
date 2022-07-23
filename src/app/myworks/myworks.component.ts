@@ -31,6 +31,7 @@ export class MyworksComponent implements OnInit {
       "github": "https://github.com/AndreHehn/el_pollo_loco",
       "link": "#"
     },
+    /*
     {
       "name": "RING OF FIRE",
       "text": "During programming this well-known drinking game, I improved my skills in Angular, especially creating animations and working with databases (in this case, firebase from google).",
@@ -38,6 +39,14 @@ export class MyworksComponent implements OnInit {
       "direction": "right",
       "github": "https://github.com/AndreHehn/ringoffire",
       "link": "https://ring-of-fire-74a66.web.app/"
+    },*/
+    {
+      "name": "MY FISHING JOURNAL",
+      "text": "During programming this app, I improved my skills in Angular, especially  working with databases (in this case, firebase from google).",
+      "src": "fishing.png",
+      "direction": "right",
+      "github": "https://github.com/AndreHehn/myFishingJournal",
+      "link": "https://my-fishing-journal.web.app/"
     }
   ];
   constructor() { }
