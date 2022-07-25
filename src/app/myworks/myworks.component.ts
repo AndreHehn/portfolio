@@ -17,7 +17,7 @@ export class MyworksComponent implements OnInit {
     },
     {
       "name": "EL POLLO LOCO",
-      "text": "This is little jump'n'run game, implemented with object-oriented programming (OOP). The used languages: JavaScript, CSS and HTML",
+      "text": "This is a little jump'n'run game, implemented with object-oriented programming (OOP). The used languages: JavaScript, CSS and HTML",
       "src": "pollo.png",
       "direction": "right",
       "github": "https://github.com/AndreHehn/portfolio",
