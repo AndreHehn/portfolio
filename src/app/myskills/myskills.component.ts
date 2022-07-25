@@ -15,11 +15,11 @@ export class MyskillsComponent implements OnInit {
     {
       "name": "Angular",
       "src": "angular.png",
-    },/*
+    },
     {
       "name": "HTML/CSS",
       "src": "htss.png",
-    },*/
+    },/*
     {
       "name": "HTML",
       "src": "html.png",
@@ -27,7 +27,7 @@ export class MyskillsComponent implements OnInit {
     {
       "name": "CSS",
       "src": "css.png",
-    },
+    },*/
     {
       "name": "SCRUM",
       "src": "scrum.png",
@@ -35,10 +35,6 @@ export class MyskillsComponent implements OnInit {
     {
       "name": "Git",
       "src": "github.png",
-    },
-    {
-      "name": "Design thinking",
-      "src": "design.png",
     },
     {
       "name": "API",
