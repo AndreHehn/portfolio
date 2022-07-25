@@ -154,7 +154,7 @@
 @media only screen and (max-width: 1146px) {
 
     .i-am {
-padding-right: var(--spacing-L);
+        padding-right: var(--spacing-L);
     }
 }
 
@@ -174,10 +174,9 @@ padding-right: var(--spacing-L);
 
 @media only screen and (max-width: 630px) {
     .i-am {
-        top: 33vh;
         z-index: 3;
         height: auto;
-        width: 80%;
+        width: 100%;
 
         h1 {
             font-size: 28px;
@@ -189,6 +188,15 @@ padding-right: var(--spacing-L);
             color: var(--black-color);
             text-shadow: none;
         }
+    }
+
+    .i-am-wrap {
+        position: absolute;
+        bottom: -154px;
+        width: 100%;
+        padding-left: 32px;
+        justify-content: center;
+        align-items: flex-end;
     }
 
     .transition-picture {
@@ -208,7 +216,6 @@ padding-right: var(--spacing-L);
 @media only screen and (max-height: 590px) {
 
     .i-am {
-        padding-bottom:var(--spacing-L);
+        padding-bottom: var(--spacing-L);
     }
 }
-
