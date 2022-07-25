@@ -42,7 +42,7 @@ export class MyworksComponent implements OnInit {
     },*/
     {
       "name": "MY FISHING JOURNAL",
-      "text": "During programming this app, I improved my skills in Angular, especially  working with databases (in this case, firebase from google).",
+      "text": "During programming this app, I improved my skills in Angular, especially working with databases (in this case, firebase from google).",
       "src": "fishing.png",
       "direction": "right",
       "github": "https://github.com/AndreHehn/myFishingJournal",
